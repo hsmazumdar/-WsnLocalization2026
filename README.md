@@ -1,5 +1,19 @@
 # Reference-Free Relative Localization for Direction-Aware Routing in Wireless Sensor Networks
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![C#](https://img.shields.io/badge/C%23-.NET%20Framework%204.7.2-blue.svg)](https://dotnet.microsoft.com/)
+
+## Overview
+
+This repository implements a **reference-free, anchor-free, range-free** localization algorithm for Wireless Sensor Networks (WSNs). The algorithm enables nodes to establish relative spatial relationships using only Received Signal Strength (RSS) measurements, without requiring GPS, beacons, or distance estimation hardware.
+
+**Key Features:**
+- ✅ Anchor-free operation (no GPS or beacons required)
+- ✅ Range-free (no distance measurement hardware needed)
+- ✅ Distributed and asynchronous operation
+- ✅ Topological consistency for direction-aware routing
+- ✅ Interactive visualization tool for algorithm testing
+
 ## Abstract
 
 This repository contains the implementation of a **reference-free relative localization framework** specifically designed for direction-aware routing in wireless sensor networks (WSNs). Unlike conventional localization approaches that aim for metric accuracy or absolute coordinates, this method focuses exclusively on establishing consistent **relative spatial orientation** among nodes, sufficient for routing decisions that require only the direction of the destination node.
@@ -45,17 +59,18 @@ The core contribution is a **topology-preserving spatial consensus mechanism** t
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/WsnQukMap.git
-   cd WsnQukMap
+   git clone https://github.com/hsmazumdar/-WsnLocalization2026.git
+   cd -WsnLocalization2026
    ```
 
 2. **Open the Solution**
-   - Open `WsnMap.sln` in Visual Studio
+   - Navigate to the `WsnQukMap` directory
+   - Open `WsnQukMap/WsnMap.sln` in Visual Studio
    - Restore NuGet packages if prompted
 
 3. **Build the Project**
    - Press `F6` or select `Build > Build Solution`
-   - The executable will be generated in `WsnMap/bin/Debug/WsnMap.exe`
+   - The executable will be generated in `WsnQukMap/WsnMap/bin/Debug/WsnMap.exe`
 
 ### Running the Application
 

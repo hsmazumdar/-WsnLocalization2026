@@ -380,3 +380,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Private development documents
+documents/

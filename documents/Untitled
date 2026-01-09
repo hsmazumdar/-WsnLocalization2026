@@ -1,1 +1,0 @@
-Issue: The mathematical proofs don't match the actual algorithm. The proofs assume nodes move toward neighbors when distances are too large, but your implementation moves neighbors toward a selected node.
